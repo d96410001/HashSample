@@ -1,0 +1,68 @@
+2019-11-22 17:27:31.1544 Info Message Template Auto Format enabled
+2019-11-22 17:27:31.3910 Info Adding target FileTarget(Name=ALL)
+2019-11-22 17:27:31.4942 Info Found 20 configuration items
+2019-11-22 17:38:04.0681 Info Message Template Auto Format enabled
+2019-11-22 17:38:04.3069 Info Adding target FileTarget(Name=ALL)
+2019-11-22 17:38:04.4195 Info Found 20 configuration items
+2019-11-22 17:41:53.0990 Info AppDomain Shutting down. Logger closing...
+2019-11-22 17:41:54.6102 Warn Target flush timeout. One or more targets did not complete flush operation, skipping target close.
+2019-11-22 17:41:54.6166 Info Logger has been shut down.
+2019-11-22 17:42:19.0811 Info Message Template Auto Format enabled
+2019-11-22 17:42:19.2135 Info Adding target FileTarget(Name=ALL)
+2019-11-22 17:42:19.2878 Info Found 20 configuration items
+2019-11-24 22:36:26.1392 Info Message Template Auto Format enabled
+2019-11-24 22:36:26.3369 Info Adding target FileTarget(Name=ALL)
+2019-11-24 22:36:26.6905 Info Found 20 configuration items
+2019-11-24 22:38:31.1715 Info AppDomain Shutting down. Logger closing...
+2019-11-24 22:38:32.6833 Warn Target flush timeout. One or more targets did not complete flush operation, skipping target close.
+2019-11-24 22:38:32.6833 Info Logger has been shut down.
+2019-11-24 22:38:49.2776 Info Message Template Auto Format enabled
+2019-11-24 22:38:49.4506 Info Adding target FileTarget(Name=ALL)
+2019-11-24 22:38:49.5365 Info Found 20 configuration items
+2019-11-24 22:39:07.6184 Info Message Template Auto Format enabled
+2019-11-24 22:39:07.7114 Info Adding target FileTarget(Name=ALL)
+2019-11-24 22:39:07.7533 Info Found 20 configuration items
+2019-11-24 23:05:31.4305 Info Message Template Auto Format enabled
+2019-11-24 23:05:31.5940 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:05:31.6943 Info Found 20 configuration items
+2019-11-24 23:05:58.3191 Info Message Template Auto Format enabled
+2019-11-24 23:05:58.4509 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:05:58.5220 Info Found 20 configuration items
+2019-11-24 23:07:10.8045 Info Message Template Auto Format enabled
+2019-11-24 23:07:10.9711 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:07:11.0444 Info Found 20 configuration items
+2019-11-24 23:09:23.0664 Info Message Template Auto Format enabled
+2019-11-24 23:09:23.3446 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:09:23.5536 Info Found 20 configuration items
+2019-11-24 23:10:16.3660 Info Message Template Auto Format enabled
+2019-11-24 23:10:16.6088 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:10:16.7272 Info Found 20 configuration items
+2019-11-24 23:14:28.2385 Info Message Template Auto Format enabled
+2019-11-24 23:14:28.3204 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:14:28.3713 Info Found 20 configuration items
+2019-11-24 23:15:41.3026 Info Message Template Auto Format enabled
+2019-11-24 23:15:41.4140 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:15:41.4864 Info Found 20 configuration items
+2019-11-24 23:28:01.8113 Info Message Template Auto Format enabled
+2019-11-24 23:28:02.0425 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:28:02.1731 Info Found 20 configuration items
+2019-11-24 23:28:18.4990 Info AppDomain Shutting down. Logger closing...
+2019-11-24 23:28:18.5346 Info Logger has been shut down.
+2019-11-24 23:29:12.7578 Info Message Template Auto Format enabled
+2019-11-24 23:29:13.0416 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:29:13.1948 Info Found 20 configuration items
+2019-11-24 23:30:23.6773 Info Message Template Auto Format enabled
+2019-11-24 23:30:24.0327 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:30:24.1456 Info Found 20 configuration items
+2019-11-24 23:31:27.8057 Info Message Template Auto Format enabled
+2019-11-24 23:31:27.9026 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:31:27.9627 Info Found 20 configuration items
+2019-11-24 23:32:23.4074 Info Message Template Auto Format enabled
+2019-11-24 23:32:23.6103 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:32:23.6853 Info Found 20 configuration items
+2019-11-24 23:34:09.2937 Info Message Template Auto Format enabled
+2019-11-24 23:34:09.5556 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:34:09.6157 Info Found 20 configuration items
+2019-11-24 23:35:42.2491 Info Message Template Auto Format enabled
+2019-11-24 23:35:42.4928 Info Adding target FileTarget(Name=ALL)
+2019-11-24 23:35:42.5633 Info Found 20 configuration items

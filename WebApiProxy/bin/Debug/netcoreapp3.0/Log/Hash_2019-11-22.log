@@ -1,0 +1,12 @@
+2019-11-22 15:43:10.8520||DEBUG|WebApiProxy.Program|init main 
+2019-11-22 15:43:13.9215||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:4001 
+2019-11-22 15:43:13.9396||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:4000 
+2019-11-22 15:43:13.9604||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-11-22 15:43:13.9632||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-11-22 15:43:13.9632||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\07471.jerry.wang\Desktop\HashDemo\WebApiProxy 
+2019-11-22 15:48:05.1855||DEBUG|WebApiProxy.Program|init main 
+2019-11-22 15:48:08.1756||INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:4001 
+2019-11-22 15:48:08.1906||INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:4000 
+2019-11-22 15:48:08.1906||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2019-11-22 15:48:08.2102||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2019-11-22 15:48:08.2123||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\07471.jerry.wang\Desktop\HashDemo\WebApiProxy 
