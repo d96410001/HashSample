@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jerry\\.nuget\\packages\\": {},
+    "C:\\Users\\07471.jerry.wang\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\HashLib.csproj",
+      "projectUniqueName": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\HashLib.csproj",
       "projectName": "HashLib",
-      "projectPath": "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\HashLib.csproj",
-      "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\obj\\",
+      "projectPath": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\HashLib.csproj",
+      "packagesPath": "C:\\Users\\07471.jerry.wang\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\07471.jerry.wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -48,10 +48,21 @@
     "frameworks": {
       "netcoreapp3.0": {
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

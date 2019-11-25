@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jerry\\Desktop\\HashSample\\WebApiProxy\\WebApiProxy.csproj": {}
+    "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\WebApiProxy\\WebApiProxy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\HashLib.csproj": {
+    "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\HashLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\HashLib.csproj",
+        "projectUniqueName": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\HashLib.csproj",
         "projectName": "HashLib",
-        "projectPath": "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\HashLib.csproj",
-        "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\obj\\",
+        "projectPath": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\HashLib.csproj",
+        "packagesPath": "C:\\Users\\07471.jerry.wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\07471.jerry.wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,20 +59,20 @@
         }
       }
     },
-    "C:\\Users\\jerry\\Desktop\\HashSample\\WebApiProxy\\WebApiProxy.csproj": {
+    "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\WebApiProxy\\WebApiProxy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerry\\Desktop\\HashSample\\WebApiProxy\\WebApiProxy.csproj",
+        "projectUniqueName": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\WebApiProxy\\WebApiProxy.csproj",
         "projectName": "WebApiProxy",
-        "projectPath": "C:\\Users\\jerry\\Desktop\\HashSample\\WebApiProxy\\WebApiProxy.csproj",
-        "packagesPath": "C:\\Users\\jerry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerry\\Desktop\\HashSample\\WebApiProxy\\obj\\",
+        "projectPath": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\WebApiProxy\\WebApiProxy.csproj",
+        "packagesPath": "C:\\Users\\07471.jerry.wang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\WebApiProxy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jerry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\07471.jerry.wang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\HashLib.csproj": {
-                "projectPath": "C:\\Users\\jerry\\Desktop\\HashSample\\HashLib\\HashLib.csproj"
+              "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\HashLib.csproj": {
+                "projectPath": "C:\\Users\\07471.jerry.wang\\Desktop\\Hash\\HashSample\\HashLib\\HashLib.csproj"
               }
             }
           }

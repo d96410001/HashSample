@@ -22,7 +22,6 @@ namespace WebApiProxy.Controllers
             _logger = logger;
         }
 
-
         [HttpGet]
         public IActionResult Get(string fileUri)
         {
@@ -31,7 +30,7 @@ namespace WebApiProxy.Controllers
 
             try
             {
-                var hashFilebase64String = _hashFile.GetHashFileBase64Async(fileUri).Result;
+                var hashFilebase64String = _hashFile.GetHashFileBase64(fileUri);
                 return Ok($"hashBase64: {hashFilebase64String}");
             }
             catch (Exception ex)

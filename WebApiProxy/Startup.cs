@@ -13,6 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApiProxy.Models;
+using WebApiProxy.Repository;
 using WebApiProxy.Utility;
 
 namespace WebApiProxy

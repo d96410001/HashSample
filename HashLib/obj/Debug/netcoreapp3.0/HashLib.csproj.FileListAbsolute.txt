@@ -29,3 +29,11 @@ C:\Users\jerry\Desktop\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.Assemb
 C:\Users\jerry\Desktop\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.AssemblyInfo.cs
 C:\Users\jerry\Desktop\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.dll
 C:\Users\jerry\Desktop\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.pdb
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\bin\Debug\netcoreapp3.0\HashLib.deps.json
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\bin\Debug\netcoreapp3.0\HashLib.dll
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\bin\Debug\netcoreapp3.0\HashLib.pdb
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.csprojAssemblyReference.cache
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.AssemblyInfoInputs.cache
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.AssemblyInfo.cs
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.dll
+C:\Users\07471.jerry.wang\Desktop\Hash\HashSample\HashLib\obj\Debug\netcoreapp3.0\HashLib.pdb

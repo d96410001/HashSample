@@ -3,8 +3,10 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System;
 using System.Net.Http;
+using System.Threading;
 using System.Threading.Tasks;
 using WebApiProxy.Models;
+using WebApiProxy.Repository;
 using static HashLib.Utility.Cryptography;
 
 namespace WebApiProxy.Utility
@@ -15,6 +17,7 @@ namespace WebApiProxy.Utility
         private readonly IDistributedCache _distributedCache;
         private readonly IHttpClientFactory _clientFactory;
         private readonly ILogger<HashFile> _logger;
+        private static Mutex mutex = new Mutex();
 
         public HashFile(IOptions<HashOptions> hashOptions, IDistributedCache distributedCache, IHttpClientFactory clientFactory, ILogger<HashFile> logger)
         {
@@ -24,33 +27,72 @@ namespace WebApiProxy.Utility
             _logger = logger;
         }
 
-        public async Task<string> GetHashFileBase64Async(string fileUri)
-        {   
-            var cacheFile = await _distributedCache.GetStringAsync(fileUri);
+        public string GetHashFileBase64(string fileUri)
+        {
+            mutex.WaitOne();
+
+            var cacheFile = HashRepository.Instance.GetValue(fileUri);
             var hashBase64 = "";
 
             if (cacheFile == null)
             {
-                _logger.LogInformation($"GetHashFileBase64Async cacheFile is null, fileUri:{fileUri}");
-                _logger.LogInformation($"request _hashOptions.Value.ApiEndPoint:{_hashOptions.Value.ApiEndPoint}");
+                _logger.LogInformation($"{Thread.CurrentThread.Name} GetHashFileBase64Async cacheFile is null, fileUri:{fileUri}");
+
+                _logger.LogInformation($"{Thread.CurrentThread.Name} request _hashOptions.Value.ApiEndPoint:{_hashOptions.Value.ApiEndPoint}");
 
                 var request = new HttpRequestMessage(HttpMethod.Get, $"{_hashOptions.Value.ApiEndPoint}{fileUri}");
                 var client = _clientFactory.CreateClient();
-                var response = await client.SendAsync(request);
+                var response = client.SendAsync(request).Result;
 
-                _logger.LogInformation($"response.IsSuccessStatusCode:{response.IsSuccessStatusCode}; fileUri:{fileUri}");
+                _logger.LogInformation($"{Thread.CurrentThread.Name} response.IsSuccessStatusCode:{response.IsSuccessStatusCode}; fileUri:{fileUri}");
                 if (response.IsSuccessStatusCode)
                 {
-                    var responseString = await response.Content.ReadAsStringAsync();
+                    var responseString = response.Content.ReadAsStringAsync().Result;
                     hashBase64 = responseString;
                 }
-               
-                await _distributedCache.SetStringAsync(fileUri, hashBase64, new DistributedCacheEntryOptions() { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(300) });
+
+                HashRepository.Instance.SetValue(fileUri, hashBase64, TimeSpan.FromSeconds(300));
             }
             else
             {
                 hashBase64 = cacheFile;
             }
+
+            mutex.ReleaseMutex();
+
+            return hashBase64;
+        }
+
+
+        public async Task<string> GetHashFileBase64Async(string fileUri)
+        {
+            var cacheFile = _distributedCache.GetString(fileUri);
+
+            var hashBase64 = "";
+
+            if (cacheFile == null)
+            {
+                _logger.LogInformation($"{Thread.CurrentThread.Name} GetHashFileBase64Async cacheFile is null, fileUri:{fileUri}");
+
+                _logger.LogInformation($"{Thread.CurrentThread.Name} request _hashOptions.Value.ApiEndPoint:{_hashOptions.Value.ApiEndPoint}");
+
+                var request = new HttpRequestMessage(HttpMethod.Get, $"{_hashOptions.Value.ApiEndPoint}{fileUri}");
+                var client = _clientFactory.CreateClient();
+                var response = await client.SendAsync(request);
+
+                _logger.LogInformation($"{Thread.CurrentThread.Name} response.IsSuccessStatusCode:{response.IsSuccessStatusCode}; fileUri:{fileUri}");
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseString = await response.Content.ReadAsStringAsync();
+                    hashBase64 = responseString;
+                }
+                _distributedCache.SetString(fileUri, hashBase64, new DistributedCacheEntryOptions { AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(300) });
+            }
+            else
+            {
+                hashBase64 = cacheFile;
+            }
+
 
             return hashBase64;
         }
